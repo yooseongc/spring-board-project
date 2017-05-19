@@ -1,0 +1,245 @@
+@CHARSET "UTF-8";
+
+/*
+===================================================================
+                                                     공통 부분
+===================================================================
+*/
+body, td, input, select {
+	font-family: '돋움';
+	font-size: 12px;
+}
+
+a {
+	text-decoration: none;
+	color: #000000;
+}
+
+caption {
+	display: none;
+}
+
+img {
+	border: 0px;
+}
+
+
+/*
+===================================================================
+                                               게시판 리스트 화면
+===================================================================
+*/
+
+/* 제목 부분 */
+#boardTit {
+	width: 800px;
+	text-align: center;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+/* 검색 부분 */
+#boardSearch table {
+	width: 800px;
+	text-align: right;
+}
+
+#boardSearch #btd1 {
+	width: 400px;
+	text-align: left;
+}
+
+#boardSearch #btd2 {
+	width: 400px;
+	text-align: right;
+}
+
+/* 리스트 부분 */
+#boardList {
+	margin-top: 15px;
+}
+
+#boardList table {
+	width: 800px;
+	padding: 0px;
+	border: 1px solid #000000;
+	border-bottom: 0px;
+}
+
+#boardList tr {
+	padding: 0px;
+}
+
+#boardList th {
+	border-bottom: 1px solid #000000;
+	border-right: 1px solid #000000;
+	padding: 5px;
+	background-color: #e7e7e7;
+}
+
+#boardList td {
+	padding: 5px;
+	border-bottom: 1px solid #000000;
+}
+
+#boardList .borcle {
+	border-right: 0px;
+}
+
+/* 버튼 부분 */
+#boardBut {
+	width: 800px;
+	text-align: right;
+	margin-top: 15px;
+}
+
+/* 페이징 출력 div 부분 */
+#boardPage {
+	width: 800px;
+	margin-top: 5px;
+}
+
+/* 페이징 버튼 부분 */
+.paginate {
+	width: 100%;
+	height: 20px;
+	text-align: center;
+	vertical-align: top;
+	font-size: 14px;
+}
+
+.paginate span .textAn {
+	vertical-align: top;
+}
+
+.paginate a.on {
+	color: #FF3300;
+}
+
+
+/*
+===================================================================
+                                               게시판 입력 화면
+===================================================================
+*/
+
+#boardWrite {
+	width: 800px;
+	padding: 0px;
+	border: 1px solid #000000;
+	border-bottom: 0px;
+}
+
+#boardWrite td {
+	padding: 5px;
+	border-bottom: 1px solid #000000;
+}
+
+input[type="text"], input[type="password"] {
+	border: 1px solid #000000;
+	width: 150px;
+}
+
+#b_title {
+	width: 480px;
+}
+
+#b_content {
+	border: 1px solid #000000;
+	width: 480px;
+	height: 200px;
+}
+
+#boardBut {
+	width: 800px;
+	text-align: right;
+	margin-top: 15px;
+}
+
+#tel_no1, #tel_no2, #tel_no3 {
+	width: 50px;
+}
+
+#mop_no1, #mop_no2, #mop_no3 {
+	width: 50px;
+}
+
+#idCheckMsg {
+	font-weight: bold;
+}
+
+
+/*
+===================================================================
+                                               게시판 상세 화면
+===================================================================
+*/
+
+body, td, input, select {
+	font-family: '돋움';
+	font-size: 12px;
+}
+
+a {
+	text-decoration: none;
+	color: #000000;
+}
+
+img {
+	border: 0px;
+}
+
+#boardPwdBut {
+	width: 800px;
+	margin-bottom: 15px;
+}
+
+#boardPwdBut #btd1 {
+	width: 600px;
+	text-align: left;
+	vertical-align: bottom;
+}
+
+#boardPwdBut #btd2 {
+	width: 200px;
+	text-align: right;
+}
+
+#msg {
+	padding-left: 4px;
+	vertical-align: middle;
+	font-weight: bold;
+}
+
+#boardDetail table {
+	width: 800px;
+	padding: 0px;
+	border: 1px solid #000000;
+	border-bottom: 0px;
+	border-left: 0px;
+}
+
+#boardDetail td {
+	padding: 5px;
+	border-bottom: 1px solid #000000;
+	border-left: 1px solid #000000;
+}
+
+#boardDetail .ctr {
+	height: 150px;
+	vertical-align: top;
+}
+
+.ac {
+	text-align: center;
+	background-color: #ebebeb;
+	font-weight: bold;
+}
+
+#pwdChk #l_pwd {
+	vertical-align: bottom;
+}
+
+#pwdChk #b_pwd {
+	border: 1px dotted #000000;
+}
